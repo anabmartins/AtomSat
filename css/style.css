@@ -56,10 +56,18 @@ ul.menu{
   border: solid 2px transparent;
 }
 .menu a:hover {
-  border: solid 2px #4D277C;
-  background-color: #4D277C;
+  text-decoration: underline;
+  text-decoration-color: #C2ACFF;
 }
 .intro{
-  background-image: url(./img/space.img);
-  width: 10rem;
+  background-image: url(../img/space.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+.intro h1{
+  font-size: 64px;
+  color: #FAF5C7;
+  text-align: center;
+  padding: 24rem 0px;
 }
