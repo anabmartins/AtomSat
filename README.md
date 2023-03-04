@@ -1,2 +1,2 @@
 # AtomSat
-Landing Page para a empresa AtomSat
+Landing Page para o grupo AtomSat
