@@ -6,19 +6,16 @@ body{
 a{
   text-decoration: none;
 }
-p, h1, h2, h3{
-  margin: 0px;
-}
 #header{
   background-color: #1F0A3A;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 8.5rem;
+  height: 5.5rem;
 }
 #header img{
-  height: 100%;
+  max-width: 70px;
 }
 .logo{
   position: absolute;
@@ -34,12 +31,14 @@ nav{
   justify-content: center;
   align-items: center;
   height: 100%;
+  position: fixed;
 }
 .menu{
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+  /* position: fixed; */
 }
 .menu li {
   margin-right: 20px;
@@ -50,24 +49,27 @@ ul.menu{
 .menu a{
   display: block;
   padding: 8px 15px;
-  font-size: 22px;
+  font-size: 18px;
   color: #FAF5C7;
   border-radius: 4px;
   border: solid 2px transparent;
+  text-transform: uppercase;
 }
 .menu a:hover {
   text-decoration: underline;
   text-decoration-color: #C2ACFF;
 }
 .intro{
+  height: 60rem;
+  background-color: #1F0A3A;
   background-image: url(../img/space.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
-
+  background-size: cover;
+  background-position: center top;
+  display: flex;
 }
 .intro h1{
+  margin: auto;
   font-size: 64px;
   color: #FAF5C7;
-  text-align: center;
-  padding: 24rem 0px;
 }
