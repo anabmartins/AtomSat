@@ -60,7 +60,7 @@ ul.menu{
   text-decoration-color: #C2ACFF;
 }
 .intro{
-  height: 60rem;
+  height: 100rem;
   background-color: #1F0A3A;
   background-image: url(../img/space.jpg);
   background-repeat: no-repeat;
@@ -72,4 +72,7 @@ ul.menu{
   margin: auto;
   font-size: 64px;
   color: #FAF5C7;
+}
+.sobre img{
+  max-width: 500px;
 }
